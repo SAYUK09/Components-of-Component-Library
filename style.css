@@ -257,3 +257,32 @@
     height: 100%;
     object-fit: cover;
 }
+
+
+/* COMPONENTS -------> ALERTS */
+.alert{
+    margin: 10px 0;
+    padding: 4px 24px;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1rem;
+    word-break: break-word;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+
+.warning{
+    border-left: 5px solid #ffe564;
+    background-color: rgb(254, 235, 200);
+}
+
+.danger{
+    border-left: 5px solid #d82c2c;
+    background-color: rgb(254, 215, 215);
+}
+
+.success{
+    border-left: 5px solid #1FC61D;
+    background-color: rgb(198, 246, 213);
+}
