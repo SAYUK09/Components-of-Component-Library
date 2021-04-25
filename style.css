@@ -29,10 +29,8 @@
     color: #696e79;
     border-style: none;
     border-radius: 5px;
-    height: 50%;
     width: 35%;
-    padding: 3px 10px;
-    
+    padding: 0.5rem;
 }
 .nav1 ::placeholder{
     color: #696e79;;
@@ -145,6 +143,86 @@
 }
 
 
+.horizCardParent{
+    width: 50vw;
+    background-color: #F3F4F6;
+
+}
+
+.horizCardBody{
+    display: flex;
+}
+
+.HorizCardDetails{
+    padding: 1rem;
+}
+
+.HorizImgDiv{
+    height: 10rem;
+    width: 10rem;
+}
+
+.HorizImgDiv img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.brandTitle{
+    padding: 0.1rem 0;
+    font-size: 1.2rem;
+    color: #282c3f;
+}
+
+.prdDescrip{
+    color:#535766;
+}
+
+.horizCardFooter{
+    padding: 1rem;
+}
+
+.horizCardBtnDiv{
+    
+    padding: 1rem 0;
+}
+
+.HorizQtyBtn{
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background-color: #3B82F6;
+    color: white;
+    font-size: 1rem;
+    padding: 0.15rem 0.4rem;
+    border-radius: 50%;
+}
+
+.HorizQtyBtn.subBtn{
+    padding: 0.15rem 0.5rem;
+
+}
+
+.horizFooterBtn{
+    cursor: pointer;
+    padding: 0.5rem;
+    background-color:#3B82F6;
+    border: none;
+    color: #161B22;
+    border-radius: 0.3rem;
+  
+}
+
+.horizFooterBtn.secBtn{
+    background-color: #DDD6FE;
+}
+
+.horizCardFooter{
+    border-top: 1px solid #535766;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
 
 /* Components -----> BUTTONS */
 
