@@ -56,14 +56,13 @@
 /* CARD */
 .card1, .cardSecondary{
     background-color: #F3F4F6;
-    height: 350px;
+    min-height: 250px;
     max-width: 240px;
     cursor: pointer;
     border: 1px black solid;
 }
 
 .imgDiv{
-    background-color: brown;
     height: 70%;
 }
 
