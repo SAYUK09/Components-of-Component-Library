@@ -151,6 +151,7 @@
 
 .horizCardBody{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .HorizCardDetails{
@@ -208,14 +209,16 @@
     padding: 0.5rem;
     background-color:#3B82F6;
     border: none;
-    color: #161B22;
+    color: white;
     border-radius: 0.3rem;
   
 }
 
 .horizFooterBtn.secBtn{
     background-color: #DDD6FE;
+    color: #1F2937;
 }
+
 
 .horizCardFooter{
     border-top: 1px solid #535766;
