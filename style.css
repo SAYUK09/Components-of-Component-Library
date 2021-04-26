@@ -161,6 +161,8 @@
 .HorizImgDiv{
     height: 10rem;
     width: 10rem;
+    padding:1rem;
+
 }
 
 .HorizImgDiv img{
